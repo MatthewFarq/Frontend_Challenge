@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Text", sans-serif;
+
+}
+
+header {
+  background-color: #365885;
+  box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  display: flex;
+  height: 86px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.search {
+  margin-left: 4px;
+}
+
+h1 {
+  font-family: "SF Pro Text", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 22px;
+}
+
+.bus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 76px;
+  /* padding: 0 10px 0 0; */
+  border-bottom: 1px solid #003171;
+  margin-left: 25px;
+}
+
+.bus__number {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 22px;
+  background-color: #003171;
+  color: #fff;
+  height: 52px;
+  width: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-left: -15px;
+}
+
+.bus__info {
+  padding-left: 4px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bus__schedule {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 22px;
+  color: #003171;
+}
+
+.bus__schedule--arriving {
+color: #5B8930;
+}
+
+.bus__arrow {
+  flex-grow: 1;
+  margin-right: -15px;
+}
